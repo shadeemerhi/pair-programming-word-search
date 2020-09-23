@@ -52,7 +52,7 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
-  it("should return true if the word is present", function() {
+  it("should false if the letters array is empty", function() {
     const result = wordSearch([], 'TEST');
     assert.isFalse(result);
   });
